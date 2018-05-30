@@ -1,0 +1,524 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.1.15669/W32 for ARM                29/May/2018  17:25:30
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\List\vcan_Kinetis.map
+#    Command line =  
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW78ED.tmp
+#        (C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\BumperCars_init.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\BumperCars_interrupt.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\BumperCars_lcd.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\car_control.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\diskio.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\ff.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\img_with_matrx.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\main.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\misc.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_adc.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_conf.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_dma.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_flexbus.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_gpio.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_i2c.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_it.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_port.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_rtc.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_sdhc.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_spi.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_uart.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\MK66_wdog.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\startup_MK66FX18.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\system_MK66FX18.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_BMP.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_computer.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\vcan_img2sd.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_key.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_key_event.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_LCD_ILI9325.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_LCD_ILI9341.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_LCD_ST7735R.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_LCD_ST7735S.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_LED.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_MMA7455.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_NRF24L0.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_NRF24L0_MSG.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_OV7725_Eagle.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_RTC_count.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_SCCB.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\vcan_sd_app.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\Vcan_touch.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_TSL1401.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\VCAN_UI_VAR.o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj\vectors.o
+#        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
+#        -o
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Exe\vcan_Kinetis.out
+#        --map
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\List\vcan_Kinetis.map
+#        --config "C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\config
+#        files\vcan_ROM_K66X1M.icf"
+#        C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
+#        --entry __iar_program_start --redirect __write=__write_buffered --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00010000 { ro section .intvec };
+"A1":  place at 0x00010410 { ro section .noinit };
+define block CodeRelocate { section .textrw_init };
+"P1":  place in [from 0x00010000 to 0x00100000] { ro, block CodeRelocate };
+define block CodeRelocateRam { section .textrw };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x1fff0410 to 0x20030000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+
+No sections matched the following patterns:
+
+  section .textrw       in block CodeRelocateRam
+  section .textrw_init  in block CodeRelocate
+
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                        0x410
+  .intvec              const    0x00010000   0x410  vectors.o [1]
+                              - 0x00010410   0x410
+
+"A1":                                          0x8
+  .noinit              ro code  0x00010410     0x8  startup_MK66FX18.o [1]
+                              - 0x00010418     0x8
+
+"P1", part 1 of 2:                          0x44dc
+  .text                ro code  0x00010418  0x1cf8  VCAN_LCD_ST7735S.o [1]
+  .text                ro code  0x00012110   0x148  MK66_gpio.o [1]
+  .text                ro code  0x00012258    0xc4  MK66_port.o [1]
+  .text                ro code  0x0001231c    0xd0  MK66_conf.o [1]
+  .text                ro code  0x000123ec    0x80  VCAN_LED.o [1]
+  .text                ro code  0x0001246c   0x244  MK66_uart.o [1]
+  .text                ro code  0x000126b0   0x718  img_with_matrx.o [1]
+  .text                ro code  0x00012dc8     0x8  abs.o [3]
+  .text                ro code  0x00012dd0   0x460  car_control.o [1]
+  .text                ro code  0x00013230    0x48  FltToDbl.o [4]
+  .text                ro code  0x00013278   0x178  DblAdd.o [4]
+  .text                ro code  0x000133f0    0x2e  DblCmpLe.o [4]
+  .text                ro code  0x00013420    0x68  DblToFlt.o [4]
+  .text                ro code  0x00013488    0xd2  DblSub.o [4]
+  .text                ro code  0x0001355c   0x36a  VCAN_SCCB.o [1]
+  .text                ro code  0x000138c8   0x264  MK66_dma.o [1]
+  .text                ro code  0x00013b2c   0x260  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x00013d8c   0x248  BumperCars_init.o [1]
+  .text                ro code  0x00013fd4    0x54  misc.o [1]
+  .text                ro code  0x00014028   0x228  BumperCars_lcd.o [1]
+  .text                ro code  0x00014250   0x12c  system_MK66FX18.o [1]
+  .text                ro code  0x0001437c    0x40  MK66_wdog.o [1]
+  .text                ro code  0x000143bc    0x8c  main.o [1]
+  .data_init                    0x00014448    0xe8  <Block>
+    Initializer bytes  const    0x00014448    0xe8  <for .data-1>
+  .text                ro code  0x00014530    0x98  BumperCars_interrupt.o [1]
+  .rodata              const    0x000145c8    0x4c  VCAN_LCD_ST7735S.o [1]
+  .rodata              const    0x00014614    0x44  MK66_dma.o [1]
+  .rodata              const    0x00014658    0x44  MK66_gpio.o [1]
+  .rodata              const    0x0001469c    0x44  MK66_uart.o [1]
+  .rodata              const    0x000146e0    0x40  misc.o [1]
+  .text                ro code  0x00014720    0x40  zero_init3.o [5]
+  .text                ro code  0x00014760    0x28  data_init.o [5]
+  .rodata              const    0x00014788    0x24  MK66_conf.o [1]
+  .rodata              const    0x000147ac    0x24  VCAN_OV7725_Eagle.o [1]
+  .rodata              const    0x000147d0    0x24  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x000147f4    0x22  fpinit_M.o [4]
+  .iar.init_table      const    0x00014818    0x10  - Linker created -
+  .rodata              const    0x00014828    0x20  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x00014848    0x1e  cmain.o [5]
+  .text                ro code  0x00014866     0x4  low_level_init.o [3]
+  .text                ro code  0x0001486a     0x4  exit.o [3]
+  .text                ro code  0x00014870     0xa  cexit.o [5]
+  .text                ro code  0x0001487c     0xc  XXexit.o [5]
+  .rodata              const    0x00014888    0x18  VCAN_OV7725_Eagle.o [1]
+  .rodata              const    0x000148a0    0x18  VCAN_OV7725_Eagle.o [1]
+  .rodata              const    0x000148b8    0x14  VCAN_OV7725_Eagle.o [1]
+  .rodata              const    0x000148cc     0xc  MK66_conf.o [1]
+  .text                ro code  0x000148d8     0xc  cstartup_M.o [5]
+  .rodata              const    0x000148e4     0x8  BumperCars_lcd.o [1]
+  .rodata              const    0x000148ec     0x4  main.o [1]
+  .rodata              const    0x000148f0     0x4  main.o [1]
+  .rodata              const    0x000148f4     0x0  zero_init3.o [5]
+                              - 0x000148f4  0x44dc
+
+"P1", part 2 of 2:                             0x0
+  CodeRelocate                  0x000148f4     0x0  <Block>
+
+"P2", part 1 of 3:                            0xe8
+  .data                         0x1fff0410    0xe8  <Block>
+    .data-1                     0x1fff0410    0xe6  <Init block>
+      .data            inited   0x1fff0410     0x4  BumperCars_lcd.o [1]
+      .data            inited   0x1fff0414     0x4  BumperCars_lcd.o [1]
+      .data            inited   0x1fff0418     0x4  car_control.o [1]
+      .data            inited   0x1fff041c     0x4  car_control.o [1]
+      .data            inited   0x1fff0420     0x4  car_control.o [1]
+      .data            inited   0x1fff0424     0x4  car_control.o [1]
+      .data            inited   0x1fff0428     0x4  MK66_conf.o [1]
+      .data            inited   0x1fff042c    0x14  MK66_gpio.o [1]
+      .data            inited   0x1fff0440    0x14  MK66_port.o [1]
+      .data            inited   0x1fff0454    0x14  MK66_uart.o [1]
+      .data            inited   0x1fff0468    0x14  VCAN_LCD_ST7735S.o [1]
+      .data            inited   0x1fff047c     0x4  VCAN_LED.o [1]
+      .data            inited   0x1fff0480    0x64  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fff04e4     0x2  car_control.o [1]
+      .data            inited   0x1fff04e6     0x2  VCAN_LCD_ST7735S.o [1]
+      .data            inited   0x1fff04e8     0x2  VCAN_LCD_ST7735S.o [1]
+      .data            inited   0x1fff04ea     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04eb     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04ec     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04ed     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04ee     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04ef     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04f0     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04f1     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04f2     0x1  img_with_matrx.o [1]
+      .data            inited   0x1fff04f3     0x1  VCAN_LCD_ST7735S.o [1]
+      .data            inited   0x1fff04f4     0x1  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fff04f5     0x1  VCAN_OV7725_Eagle.o [1]
+                              - 0x1fff04f8    0xe8
+
+"P2", part 2 of 3:                          0x18c0
+  .bss                          0x1fff04f8  0x18c0  <Block>
+    .bss               zero     0x1fff04f8     0x8  car_control.o [1]
+    .bss               zero     0x1fff0500     0x4  BumperCars_interrupt.o [1]
+    .bss               zero     0x1fff0504     0x4  BumperCars_interrupt.o [1]
+    .bss               zero     0x1fff0508     0x4  BumperCars_lcd.o [1]
+    .bss               zero     0x1fff050c    0x14  BumperCars_lcd.o [1]
+    .bss               zero     0x1fff0520    0x14  BumperCars_lcd.o [1]
+    .bss               zero     0x1fff0534     0x4  car_control.o [1]
+    .bss               zero     0x1fff0538     0x4  car_control.o [1]
+    .bss               zero     0x1fff053c     0x4  car_control.o [1]
+    .bss               zero     0x1fff0540     0x4  car_control.o [1]
+    .bss               zero     0x1fff0544     0x4  car_control.o [1]
+    .bss               zero     0x1fff0548     0x4  car_control.o [1]
+    .bss               zero     0x1fff054c     0x4  car_control.o [1]
+    .bss               zero     0x1fff0550    0x18  car_control.o [1]
+    .bss               zero     0x1fff0568    0x18  car_control.o [1]
+    .bss               zero     0x1fff0580    0x18  car_control.o [1]
+    .bss               zero     0x1fff0598    0x18  car_control.o [1]
+    .bss               zero     0x1fff05b0   0x2d0  img_with_matrx.o [1]
+    .bss               zero     0x1fff0880     0x4  img_with_matrx.o [1]
+    .bss               zero     0x1fff0884     0x4  img_with_matrx.o [1]
+    .bss               zero     0x1fff0888   0x258  main.o [1]
+    .bss               zero     0x1fff0ae0  0x12c0  main.o [1]
+    .bss               zero     0x1fff1da0     0x4  system_MK66FX18.o [1]
+    .bss               zero     0x1fff1da4     0x4  system_MK66FX18.o [1]
+    .bss               zero     0x1fff1da8     0x4  system_MK66FX18.o [1]
+    .bss               zero     0x1fff1dac     0x4  VCAN_OV7725_Eagle.o [1]
+    .bss               zero     0x1fff1db0     0x2  img_with_matrx.o [1]
+    .bss               zero     0x1fff1db2     0x1  BumperCars_interrupt.o [1]
+    .bss               zero     0x1fff1db3     0x1  BumperCars_interrupt.o [1]
+    .bss               zero     0x1fff1db4     0x1  img_with_matrx.o [1]
+    .bss               zero     0x1fff1db5     0x1  img_with_matrx.o [1]
+    .bss               zero     0x1fff1db6     0x1  img_with_matrx.o [1]
+                              - 0x1fff1db8  0x18c0
+
+"P2", part 3 of 3:                             0x0
+  CodeRelocateRam               0x1fff1db8     0x0  <Block>
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x18bf:
+          0x1fff04f8  0x18bf
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj: [1]
+    BumperCars_init.o           584
+    BumperCars_interrupt.o      152                10
+    BumperCars_lcd.o            552       16       52
+    MK66_conf.o                 208       52        4
+    MK66_dma.o                  612       68
+    MK66_gpio.o                 328       88       20
+    MK66_port.o                 196       20       20
+    MK66_uart.o                 580       88       20
+    MK66_wdog.o                  64
+    VCAN_LCD_ST7735S.o        7 416      101       25
+    VCAN_LED.o                  128        4        4
+    VCAN_OV7725_Eagle.o         608      274      106
+    VCAN_SCCB.o                 874
+    car_control.o             1 120       18      150
+    img_with_matrx.o          1 816        9      742
+    main.o                      140        8    5 400
+    misc.o                       84       64
+    startup_MK66FX18.o            8
+    system_MK66FX18.o           300                12
+    vectors.o                          1 040
+    -------------------------------------------------
+    Total:                   15 770    1 850    6 565
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abs.o                         8
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       16
+
+m7M_tls.a: [4]
+    DblAdd.o                    376
+    DblCmpLe.o                   46
+    DblSub.o                    210
+    DblToFlt.o                  104
+    FltToDbl.o                   72
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                      842
+
+rt7M_tl.a: [5]
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      168
+
+    Gaps                         10        2
+    Linker created                        18
+-----------------------------------------------------
+    Grand Total:             16 806    1 870    6 565
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff04f8           --   Gb  - Linker created -
+.bss$$Limit             0x1fff1db8           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff04f8           --   Gb  - Linker created -
+.data_init$$Base        0x00014448           --   Gb  - Linker created -
+.data_init$$Limit       0x00014530           --   Gb  - Linker created -
+.iar.init_table$$Base   0x00014818           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00014828           --   Gb  - Linker created -
+?main                   0x00014849          Code  Gb  cmain.o [5]
+ASSERT_FAILED_STR       0x00014788    0x24  Data  Gb  MK66_conf.o [1]
+All_init                0x00013de5    0x10  Code  Gb  BumperCars_init.o [1]
+CodeRelocate$$Base      0x000148f4           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x000148f4           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff1db8           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff1db8           --   Gb  - Linker created -
+DMA0_IRQHandler         0x00014557     0x8  Code  Gb  BumperCars_interrupt.o [1]
+Dir_L                   0x1fff1db2     0x1  Data  Gb  BumperCars_interrupt.o [1]
+Dir_R                   0x1fff1db3     0x1  Data  Gb  BumperCars_interrupt.o [1]
+FULL_ACC                0x1fff04e4     0x2  Data  Gb  car_control.o [1]
+GPIOX                   0x1fff042c    0x14  Data  Gb  MK66_gpio.o [1]
+LCD_ST7735S_dir         0x000114ad   0xa0e  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_init        0x00010419    0x12  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_org_init    0x0001042d   0xfd2  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_ptlon       0x00011ed1   0x21c  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_ramwr       0x000113ff    0x3a  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_wr_data_t   0x00011439    0x74  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LED_PTxn                0x1fff047c     0x4  Data  Gb  VCAN_LED.o [1]
+NVIC_DisableIRQ         0x00013da3    0x16  Code  Lc  BumperCars_init.o [1]
+NVIC_DisableIRQ         0x00013b43    0x16  Code  Lc  VCAN_OV7725_Eagle.o [1]
+NVIC_EnableIRQ          0x00013d8d    0x16  Code  Lc  BumperCars_init.o [1]
+NVIC_EnableIRQ          0x00013b2d    0x16  Code  Lc  VCAN_OV7725_Eagle.o [1]
+NVIC_SetPriority        0x00013db9    0x2c  Code  Lc  BumperCars_init.o [1]
+PIT0_IRQHandler         0x00014417    0x14  Code  Gb  main.o [1]
+PIT3_IRQHandler         0x0001455f    0x50  Code  Gb  BumperCars_interrupt.o [1]
+PORTA_IRQHandler        0x00014531    0x26  Code  Gb  BumperCars_interrupt.o [1]
+PORTX                   0x1fff0440    0x14  Data  Gb  MK66_port.o [1]
+Region$$Table$$Base     0x00014818           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00014828           --   Gb  - Linker created -
+Reset_Handler           0x00010411          Code  Gb  startup_MK66FX18.o [1]
+SCCB_Ack                0x00013631    0x3c  Code  Lc  VCAN_SCCB.o [1]
+SCCB_GPIO_init          0x00013577    0x28  Code  Gb  VCAN_SCCB.o [1]
+SCCB_NoAck              0x0001366d    0x3c  Code  Lc  VCAN_SCCB.o [1]
+SCCB_ReadByte           0x0001380f    0x2e  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte_one       0x0001383d    0x8a  Code  Lc  VCAN_SCCB.o [1]
+SCCB_ReceiveByte        0x00013739    0x54  Code  Lc  VCAN_SCCB.o [1]
+SCCB_SendByte           0x000136f5    0x44  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Start              0x0001359f    0x5e  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Stop               0x000135fd    0x34  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WaitAck            0x000136a9    0x4c  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WriteByte          0x0001379d    0x2a  Code  Gb  VCAN_SCCB.o [1]
+SCCB_WriteByte_one      0x000137c7    0x48  Code  Lc  VCAN_SCCB.o [1]
+SCCB_delay              0x0001355d    0x1a  Code  Lc  VCAN_SCCB.o [1]
+UARTN                   0x1fff0454    0x14  Data  Gb  MK66_uart.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2002fff8          Data  Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00010000          Data  Gb  command line/config [2]
+__aeabi_cdcmple         0x000133f1          Code  Gb  DblCmpLe.o [4]
+__aeabi_d2f             0x00013421          Code  Gb  DblToFlt.o [4]
+__aeabi_dadd            0x00013279          Code  Gb  DblAdd.o [4]
+__aeabi_f2d             0x00013231          Code  Gb  FltToDbl.o [4]
+__cmain                 0x00014849          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00010410          Data  Gb  command line/config [2]
+__exit                  0x0001487d          Code  Gb  XXexit.o [5]
+__iar_dadd              0x00013489          Code  Gb  DblSub.o [4]
+__iar_data_init3        0x00014761    0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x00013289          Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x0001329b          Code  Gb  DblAdd.o [4]
+__iar_init_vfp          0x000147f5          Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x000148d9          Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x00014721    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00014867     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00010000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x00014855          Code  Gb  cmain.o [5]
+_exit                   0x00014871          Code  Gb  cexit.o [5]
+_main                   0x00014863          Code  Gb  cmain.o [5]
+a                       0x1fff0880     0x4  Data  Gb  img_with_matrx.o [1]
+a_                      0x1fff0534     0x4  Data  Gb  car_control.o [1]
+abs                     0x00012dc9     0x8  Code  Gb  abs.o [3]
+assert_failed           0x0001235d    0x2c  Code  Gb  MK66_conf.o [1]
+b                       0x1fff0884     0x4  Data  Gb  img_with_matrx.o [1]
+buff                    0x1fff050c    0x14  Data  Gb  BumperCars_lcd.o [1]
+buff1                   0x1fff0520    0x14  Data  Gb  BumperCars_lcd.o [1]
+bus_clk_khz             0x1fff1da8     0x4  Data  Gb  system_MK66FX18.o [1]
+car_control             0x00013155    0x74  Code  Gb  car_control.o [1]
+casual_time             0x000129b9   0x13c  Code  Gb  img_with_matrx.o [1]
+common_startup          0x000142b5    0x8a  Code  Gb  system_MK66FX18.o [1]
+control_init            0x00012dd1    0x88  Code  Gb  car_control.o [1]
+core_clk_khz            0x1fff1da0     0x4  Data  Gb  system_MK66FX18.o [1]
+core_clk_mhz            0x1fff1da4     0x4  Data  Gb  system_MK66FX18.o [1]
+default_isr             0x0001239d    0x3e  Code  Gb  MK66_conf.o [1]
+delta_speed             0x1fff054c     0x4  Data  Gb  car_control.o [1]
+dma_gpio_input_init     0x000138c9    0x5c  Code  Lc  MK66_dma.o [1]
+dma_portx2buff_init     0x00013925   0x1d4  Code  Gb  MK66_dma.o [1]
+emergency               0x00012b01   0x1c2  Code  Gb  img_with_matrx.o [1]
+enter_fputc             0x00012389    0x14  Code  Gb  MK66_conf.o [1]
+exit                    0x0001486b     0x4  Code  Gb  exit.o [3]
+f                       0x1fff1db0     0x2  Data  Gb  img_with_matrx.o [1]
+feature                 0x1fff05b0   0x2d0  Data  Gb  img_with_matrx.o [1]
+find_the_feature        0x000126b1   0x306  Code  Gb  img_with_matrx.o [1]
+flagrow                 0x1fff04ed     0x1  Data  Gb  img_with_matrx.o [1]
+get_speed               0x00012e59    0x1a  Code  Gb  car_control.o [1]
+glcd                    0x1fff0428     0x4  Data  Gb  MK66_conf.o [1]
+gpio_get                0x0001220f    0x3e  Code  Gb  MK66_gpio.o [1]
+gpio_init               0x00012111    0xc2  Code  Gb  MK66_gpio.o [1]
+gpio_turn               0x000121d3    0x3c  Code  Gb  MK66_gpio.o [1]
+img                     0x1fff0ae0  0x12c0  Data  Gb  main.o [1]
+imgbuff                 0x1fff0888   0x258  Data  Gb  main.o [1]
+imgprocess              0x00012ce1    0xa4  Code  Gb  img_with_matrx.o [1]
+inil                    0x1fff04f0     0x1  Data  Gb  img_with_matrx.o [1]
+inir                    0x1fff04f1     0x1  Data  Gb  img_with_matrx.o [1]
+interrupt_init          0x00013f23    0x7e  Code  Gb  BumperCars_init.o [1]
+l_set                   0x1fff0540     0x4  Data  Gb  car_control.o [1]
+l_speed                 0x1fff0538     0x4  Data  Gb  car_control.o [1]
+l_upside                0x1fff1db5     0x1  Data  Gb  img_with_matrx.o [1]
+lcd_display             0x00014029   0x228  Code  Gb  BumperCars_lcd.o [1]
+lcd_st7735s             0x1fff0468    0x14  Data  Gb  VCAN_LCD_ST7735S.o [1]
+led_init                0x000123ed    0x40  Code  Gb  VCAN_LED.o [1]
+led_turn                0x0001242d    0x38  Code  Gb  VCAN_LED.o [1]
+main                    0x000143bd    0x5a  Code  Gb  main.o [1]
+max                     0x1fff1db4     0x1  Data  Gb  img_with_matrx.o [1]
+maxrow                  0x1fff04ec     0x1  Data  Gb  img_with_matrx.o [1]
+min                     0x1fff04f2     0x1  Data  Gb  img_with_matrx.o [1]
+minrow                  0x1fff04eb     0x1  Data  Gb  img_with_matrx.o [1]
+mode                    0x1fff04ea     0x1  Data  Gb  img_with_matrx.o [1]
+my_site0                0x1fff0508     0x4  Data  Gb  BumperCars_lcd.o [1]
+my_size0                0x1fff0410     0x4  Data  Gb  BumperCars_lcd.o [1]
+my_zoomimgsize0         0x1fff0414     0x4  Data  Gb  BumperCars_lcd.o [1]
+n_L                     0x1fff0500     0x4  Data  Gb  BumperCars_interrupt.o [1]
+n_R                     0x1fff0504     0x4  Data  Gb  BumperCars_interrupt.o [1]
+ov7725_eagle_cfgnum     0x1fff04f5     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_dma        0x00013c11    0x14  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_get_img    0x00013c25    0x42  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_buff   0x1fff1dac     0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_flag   0x1fff04f4     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_init       0x00013b59    0x18  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_port_init  0x00013b71    0x54  Code  Lc  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg        0x1fff0480    0x64  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg_init   0x00013c67    0xd2  Code  Lc  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_vsync      0x00013bc5    0x4c  Code  Gb  VCAN_OV7725_Eagle.o [1]
+port_init               0x00012259    0x4c  Code  Gb  MK66_port.o [1]
+port_init_NoALT         0x000122a5    0x6e  Code  Gb  MK66_port.o [1]
+r_set                   0x1fff0544     0x4  Data  Gb  car_control.o [1]
+r_speed                 0x1fff053c     0x4  Data  Gb  car_control.o [1]
+r_upside                0x1fff1db6     0x1  Data  Gb  img_with_matrx.o [1]
+sa                      0x1fff0550    0x18  Data  Gb  car_control.o [1]
+sb                      0x1fff0568    0x18  Data  Gb  car_control.o [1]
+sensor_init             0x00013df5   0x12e  Code  Gb  BumperCars_init.o [1]
+set_vector_handler      0x00013ff7    0x24  Code  Gb  misc.o [1]
+setb                    0x1fff0548     0x4  Data  Gb  car_control.o [1]
+setspeed                0x1fff0418     0x4  Data  Gb  car_control.o [1]
+sl                      0x1fff0580    0x18  Data  Gb  car_control.o [1]
+soft_delay_ms           0x00012341    0x1c  Code  Gb  MK66_conf.o [1]
+soft_delay_us           0x0001231d    0x24  Code  Gb  MK66_conf.o [1]
+sr                      0x1fff0598    0x18  Data  Gb  car_control.o [1]
+st                      0x1fff04f8     0x8  Data  Gb  car_control.o [1]
+st7735s_dir             0x1fff04f3     0x1  Data  Gb  VCAN_LCD_ST7735S.o [1]
+st7735s_h               0x1fff04e6     0x2  Data  Gb  VCAN_LCD_ST7735S.o [1]
+st7735s_w               0x1fff04e8     0x2  Data  Gb  VCAN_LCD_ST7735S.o [1]
+start                   0x00014251    0x20  Code  Gb  system_MK66FX18.o [1]
+stree_control           0x00012e75   0x2d6  Code  Gb  car_control.o [1]
+stree_max               0x1fff041c     0x4  Data  Gb  car_control.o [1]
+stree_mid               0x1fff0420     0x4  Data  Gb  car_control.o [1]
+stree_min               0x1fff0424     0x4  Data  Gb  car_control.o [1]
+sysinit                 0x00014271    0x44  Code  Gb  system_MK66FX18.o [1]
+threshold_bottom        0x1fff04ee     0x1  Data  Gb  img_with_matrx.o [1]
+threshold_top           0x1fff04ef     0x1  Data  Gb  img_with_matrx.o [1]
+uart_init               0x0001246d   0x20e  Code  Gb  MK66_uart.o [1]
+uart_putchar            0x0001267b    0x1e  Code  Gb  MK66_uart.o [1]
+wdog_disable            0x0001437d    0x16  Code  Gb  MK66_wdog.o [1]
+wdog_unlock             0x00014393    0x22  Code  Lc  MK66_wdog.o [1]
+write_vtor              0x00013fd5    0x22  Code  Gb  misc.o [1]
+
+
+[1] = C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+
+  16 806 bytes of readonly  code memory
+   1 870 bytes of readonly  data memory
+   6 565 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

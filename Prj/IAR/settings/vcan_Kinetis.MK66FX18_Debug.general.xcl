@@ -1,0 +1,17 @@
+"E:\arm\bin\armproc.dll" 
+
+"E:\arm\bin\armjlink2.dll" 
+
+"C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\MK66FX18_Debug\Exe\vcan_Kinetis.out" 
+
+--plugin "E:\arm\bin\armbat.dll" 
+
+--device_macro "E:\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro "E:\arm\config\debugger\NXP\K6x_Trace.dmac" 
+
+--flash_loader "C:\Users\Administrator\Documents\MK66_Block1A\Prj\IAR\config files\vcan_K66.board" 
+
+
+
+
